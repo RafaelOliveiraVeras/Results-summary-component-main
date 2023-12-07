@@ -2,7 +2,7 @@
     font-family: 'HankenGrotesk';
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
-@media(min-width:375px){
+@media(min-width:320px){
     body{
         text-align: center;
         font-family: 'HankenGrotesk';
