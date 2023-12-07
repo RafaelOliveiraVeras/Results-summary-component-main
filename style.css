@@ -2,13 +2,13 @@
     font-family: 'HankenGrotesk';
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
-@media(min-width:320px){
+
     body{
         text-align: center;
         font-family: 'HankenGrotesk';
     }
 
-    header{
+    .top{
         background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
         height: 320px; 
         border-radius: 0 0 30px 30px;  
@@ -32,38 +32,38 @@
         font-family: 'HankenGrotesk';
     }
     
-    .circle p:first-child{
+    .circle h2{
         color: hsl(0, 0%, 100%);
         font-size: 50px;
         padding-top: 30px;
     }
-    .circle p+p{
+    .circle p{
         padding-top: 5px;
         color: hsl(241, 100%, 79%);
 
 
     }
 
-    section p:first-child{
+    .top-text h2{
         color: hsl(0, 0%, 100%);
         font-size: 2rem;
         padding-top: 30px;
     }
 
-    section p+p{
+    .top-text p{
         color: hsl(241, 100%, 89%);
         padding-top: 10px;
         width: 70%;
         margin: auto;
     }
 
-    main{
+    .bottom{
         text-align: left;
         padding: 20px 0 0 30px;
         font-weight: 500;
     }
 
-    h2{
+    .bottom h2{
         color: hsl(224, 30%, 27%);
         font-size: 20px;
         font-weight: 800;
@@ -126,15 +126,15 @@
         text-decoration: none;
         border-radius: 18px;
     }
-}
+
 @media(min-width:600px){
-    .wrap{
+    .all{
         display: flex;
         justify-content:center;
         margin: 50px 10vw;
     }
 
-    header{
+    .top{
         height: auto;
     }
 
@@ -144,18 +144,18 @@
         margin-top: 50px;
     }
 
-    .circle p:first-child{
+    .circle h2{
         padding-top: 40px;
     }
 
-    header,main{
+    .top,.bottom{
         flex: 1;
         border-radius: 30px;
     }
 }
 
 @media(min-width:1200px){
-    .wrap{
+    .all{
         margin:50px 25vw;
     }
 }

@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
@@ -16,21 +16,23 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  <div class="wrap">
-  <header>
-  <h1>Your Result</h1>
-  <div class="circle">
-  <p>76</p>
-  <p>of 100</p>
-    </div>
-    <section>
-  <p>Great</p>
-  <p>You scored higher than 65% of the people who have taken these tests.</p>
-    </section>
-  </header>
 
-  <main>
+<body>
+  <section class="all">
+    <article class="top">
+      <h1>Your Result</h1>
+       <div class="circle">
+         <h2>76</h2>
+         <p>of 100</p>
+       </div>
+
+    <article class="top-text">
+  <h2>Great</h2>
+  <p>You scored higher than 65% of the people who have taken these tests.</p>
+    </article>
+</article>
+
+    <article class="bottom">
   <h2>Summary</h2>
 
     <div class="grade reaction">
@@ -54,8 +56,8 @@
     </div>
 
   <a class="button" href="#">Continue</a>
-  </main>
-  </div>
+    </article>
+  </section>
 
   <footer>
   <div class="attribution">
