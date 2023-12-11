@@ -132,6 +132,8 @@
         display: flex;
         justify-content:center;
         margin: 50px 10vw;
+        box-shadow: 2px 25px 40px hsl(222, 82%, 94%);
+        border-radius: 30px;
     }
 
     .top{
